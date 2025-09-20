@@ -1,6 +1,6 @@
-streamlit>=1.25.0
-pulp>=2.7
-googlemaps>=5.6.0
-folium>=0.16.0
-matplotlib>=3.7.2
-numpy>=1.25.0
+streamlit
+pulp
+googlemaps
+folium
+matplotlib
+numpy
