@@ -87,7 +87,7 @@ st.header("🚚 Distribución con Google Maps y Fotos")
 origen = st.text_input("Dirección de Origen", "Calle 26 # 13-45, Bogotá, Colombia")
 destinos = st.text_area(
     "Destinos (una línea por destino)",
-    "Éxito Calle 80\nÉxito Av 68\n Éxito Suba"
+    "Éxito Calle 80\nÉxito Av 68\nÉxito Suba"
 ).splitlines()
 
 def obtener_url_foto(lugar, api_key, maxwidth=250):
