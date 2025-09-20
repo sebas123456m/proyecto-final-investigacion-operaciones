@@ -50,7 +50,7 @@ st.markdown("""
 Aplicación para apoyar la toma de decisiones en la microempresa **Deportivos Alba**:
 
 1. **Optimización de Producción** con Programación Lineal (Método Simplex).  
-2. **Optimización de Distribución** con Caminos Mínimos de Google Maps y Fotos.  
+2. **Optimización de Distribución** con Caminos Mínimos.  
 """)
 
 # =====================
@@ -87,7 +87,7 @@ st.header("🚚 Distribución con Google Maps y Fotos")
 origen = st.text_input("Dirección de Origen", "Calle 26 # 13-45, Bogotá, Colombia")
 destinos = st.text_area(
     "Destinos (una línea por destino)",
-    "Éxito Calle 80\nÉxito Av 68\nÉxito Suba"
+    "Éxito Calle 80\nÉxito Av 68\n Éxito Suba"
 ).splitlines()
 
 def obtener_url_foto(lugar, api_key, maxwidth=250):
