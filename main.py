@@ -83,7 +83,7 @@ if st.button("Calcular Producción Óptima"):
 # =====================
 # Sección 2: Caminos Mínimos con Google Maps
 # =====================
-st.header("🚚 Distribución con Google Maps y Fotos")
+st.header("🚚 Distribución con  caminos minimos")
 origen = st.text_input("Dirección de Origen", "Calle 26 # 13-45, Bogotá, Colombia")
 destinos = st.text_area(
     "Destinos (una línea por destino)",
